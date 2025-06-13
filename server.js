@@ -25,7 +25,7 @@ const io = new Server(server, {
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://dev-tinder-frontend-20dj574b4-12305s-projects.vercel.app",
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
